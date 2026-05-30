@@ -1,0 +1,11 @@
+record_id,severity,rule_id,field,message
+CDR0005,ERROR,DUPLICATE_RECORD_ID,record_id,Duplicate CDR record_id found.
+CDR0005,WARNING,SEQUENCE_NOT_INCREASING,sequence_number,Sequence number is not strictly increasing.
+CDR0007,ERROR,UNKNOWN_ROAMING_PARTNER,vpmn,Unknown VPMN partner 'UNKNOWN_MNO'.
+CDR0008,ERROR,END_BEFORE_START,event_end_utc,Event end time is before start time.
+CDR0009,ERROR,INVALID_CHARGE,charge_amount,Charge amount must be non-negative.
+CDR0009,ERROR,RATING_MISMATCH,charge_amount,Expected charge 0.10 but found -0.10.
+CDR0010,ERROR,INVALID_CURRENCY,currency,Only EUR is allowed in this mock roaming agreement.
+CDR0010,ERROR,RATING_MISMATCH,charge_amount,Expected charge 1.00 but found 2.00.
+CDR0011,ERROR,MANDATORY_FIELD_MISSING,imsi,Mandatory field 'imsi' is missing.
+CDR0012,ERROR,RATING_MISMATCH,charge_amount,Expected charge 2.50 but found 0.20.
