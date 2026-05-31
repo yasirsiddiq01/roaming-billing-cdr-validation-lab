@@ -56,6 +56,7 @@ def main() -> None:
     run_step("billing_engine.py")
     run_step("reconcile.py")
     run_step("generate_report.py")
+    run_step("database.py")
 
     print("\nDone. Check the reports/ folder.")
 
