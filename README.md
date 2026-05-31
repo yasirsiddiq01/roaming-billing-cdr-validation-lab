@@ -3,9 +3,9 @@ title: Roaming Billing CDR Validation Lab
 emoji: 📡
 colorFrom: blue
 colorTo: indigo
-sdk: streamlit
-sdk_version: 1.41.1
-app_file: app.py
+sdk: docker
+app_port: 8501
+
 pinned: false
 ---
 
