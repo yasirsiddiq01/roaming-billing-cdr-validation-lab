@@ -2,3 +2,5 @@
 # Tested with Python 3.10+
 fastapi
 uvicorn
+streamlit
+pandas
