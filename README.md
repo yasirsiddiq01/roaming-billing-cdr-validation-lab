@@ -1,3 +1,14 @@
+---
+title: Roaming Billing CDR Validation Lab
+emoji: 📡
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.41.1
+app_file: app.py
+pinned: false
+---
+
 # Roaming Billing CDR Validation Lab
 
 A self-directed telecom integration project that validates simplified TAP-style roaming CDR records, detects billing and settlement issues, and generates reconciliation/test reports.
