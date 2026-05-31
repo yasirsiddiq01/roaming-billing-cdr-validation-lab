@@ -53,6 +53,7 @@ def main() -> None:
         print(f"Using default input file: {DEFAULT_INPUT}")
 
     run_step("validator.py")
+    run_step("billing_engine.py")
     run_step("reconcile.py")
     run_step("generate_report.py")
 

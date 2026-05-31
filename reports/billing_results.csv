@@ -1,0 +1,13 @@
+record_id,imsi,hpmn,vpmn,service_type,tariff_id,quantity,unit,rate,currency,actual_charge,expected_charge,difference,billing_status,notes
+CDR0001,214010123456789,SATELIOT_ES,VODAFONE_UK,DATA,DATA_EU_001,45.5,MB,0.05,EUR,2.28,2.28,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0002,214010123456790,SATELIOT_ES,ORANGE_FR,SMS,SMS_EU_001,1,EVENT,0.10,EUR,0.10,0.10,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0003,214010123456791,SATELIOT_ES,DT_DE,VOICE,VOICE_EU_001,240,SEC,0.01,EUR,0.80,2.40,-1.60,RATING_MISMATCH,Actual charge 0.80 differs from expected charge 2.40.
+CDR0004,214010123456792,SATELIOT_ES,VODAFONE_UK,DATA,DATA_EU_001,120.0,MB,0.05,EUR,6.00,6.00,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0005,214010123456793,SATELIOT_ES,ORANGE_FR,DATA,DATA_EU_001,10.0,MB,0.05,EUR,0.50,0.50,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0005,214010123456793,SATELIOT_ES,ORANGE_FR,DATA,DATA_EU_001,10.0,MB,0.05,EUR,0.50,0.50,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0007,214010123456794,SATELIOT_ES,UNKNOWN_MNO,DATA,DATA_EU_001,20.0,MB,0.05,EUR,1.00,1.00,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0008,214010123456795,SATELIOT_ES,VODAFONE_UK,VOICE,VOICE_EU_001,300,SEC,0.01,EUR,1.00,3.00,-2.00,RATING_MISMATCH,Actual charge 1.00 differs from expected charge 3.00.
+CDR0009,214010123456796,SATELIOT_ES,DT_DE,SMS,SMS_EU_001,1,EVENT,0.10,EUR,-0.10,0.10,-0.20,RATING_MISMATCH,Actual charge -0.10 differs from expected charge 0.10.
+CDR0010,214010123456797,SATELIOT_ES,VODAFONE_UK,DATA,DATA_EU_001,20.0,MB,0.05,USD,2.00,1.00,1.00,CURRENCY_MISMATCH,CDR currency USD does not match tariff currency EUR.
+CDR0011,,SATELIOT_ES,ORANGE_FR,DATA,DATA_EU_001,30.0,MB,0.05,EUR,1.50,1.50,0.00,OK,Actual charge matches expected tariff calculation.
+CDR0012,214010123456799,SATELIOT_ES,DT_DE,DATA,DATA_EU_001,50.0,MB,0.05,EUR,0.20,2.50,-2.30,RATING_MISMATCH,Actual charge 0.20 differs from expected charge 2.50.
